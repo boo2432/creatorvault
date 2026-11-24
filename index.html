@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CreatorVault offers practical digital tools to help content creators plan, organize, and grow.">
+  <title>CreatorVault | Create. Organize. Grow.</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #11131b;
+      color: #f5f3fa;
+      line-height: 1.7;
+    }
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #292b38;
+    }
+    .logo { font-size: 25px; font-weight: bold; letter-spacing: 2px; }
+    .logo span { color: #b99ae8; }
+    nav a {
+      color: #ddd8e8;
+      text-decoration: none;
+      margin-left: 24px;
+      font-size: 14px;
+    }
+    .hero {
+      text-align: center;
+      padding: 105px 20px 95px;
+      background: radial-gradient(ellipse at top, #302344, #11131b 70%);
+    }
+    .eyebrow {
+      color: #c4a6ef;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.12;
+      margin: 22px auto;
+      max-width: 850px;
+    }
+    h1 span { color: #c4a6ef; }
+    .hero p {
+      color: #c5c1ce;
+      max-width: 620px;
+      margin: 0 auto 32px;
+      font-size: 18px;
+    }
+    .button {
+      display: inline-block;
+      background: #7952a8;
+      color: white;
+      text-decoration: none;
+      padding: 14px 27px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background .2s;
+    }
+    .button:hover { background: #956bc4; }
+    section { padding: 75px 8%; }
+    .section-title { text-align: center; margin-bottom: 42px; }
+    .section-title h2 { font-size: 34px; margin-bottom: 10px; }
+    .section-title p { color: #aaa5b5; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .feature {
+      background: #1b1e29;
+      border: 1px solid #343747;
+      padding: 27px;
+      border-radius: 12px;
+    }
+    .feature .symbol { font-size: 28px; }
+    .feature h3 { margin: 12px 0 8px; }
+    .feature p { color: #bdb8c8; font-size: 14px; }
+    .product {
+      max-width: 760px;
+      margin: auto;
+      padding: 42px;
+      text-align: center;
+      background: linear-gradient(145deg, #272034, #1b1e29);
+      border: 1px solid #57436f;
+      border-radius: 16px;
+    }
+    .product h2 { font-size: 32px; margin: 12px 0; }
+    .price { font-size: 36px; color: #d0b5f5; font-weight: bold; margin: 15px; }
+    .product p { color: #c5c1ce; margin-bottom: 25px; }
+    .about { text-align: center; background: #191b25; }
+    .about p { max-width: 700px; margin: auto; color: #c5c1ce; }
+    footer {
+      text-align: center;
+      padding: 30px 15px;
+      border-top: 1px solid #292b38;
+      color: #aaa5b5;
+      font-size: 13px;
+    }
+    footer strong { color: #c4a6ef; }
+    @media (max-width: 600px) {
+      header { flex-direction: column; gap: 14px; }
+      nav a { margin: 0 9px; }
+      .hero { padding: 75px 18px; }
+      section { padding: 55px 6%; }
+      .product { padding: 28px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CREATOR<span>VAULT</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Resources</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="eyebrow">Create. Organize. Grow.</div>
+      <h1>Bring Your Creative Ideas <span>To Life.</span></h1>
+      <p>Practical digital tools, creative inspiration, and planning resources to help you make your next move.</p>
+      <a class="button" href="#shop">Explore CreatorVault</a>
+    </section>
+
+    <section id="features">
+      <div class="section-title">
+        <h2>Tools For Your Creative Journey</h2>
+        <p>Everything starts with an idea. Let's help you organize it.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="symbol">✍️</div>
+          <h3>Creative Ideas</h3>
+          <p>Find inspiration and fresh ways to bring your content to life.</p>
+        </div>
+        <div class="feature">
+          <div class="symbol">📅</div>
+          <h3>Smarter Planning</h3>
+          <p>Organize your content and build a consistent creative routine.</p>
+        </div>
+        <div class="feature">
+          <div class="symbol">🚀</div>
+          <h3>Keep Growing</h3>
+          <p>Use practical resources to keep learning, creating, and moving forward.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop">
+      <div class="product">
+        <div class="eyebrow">Featured Digital Product</div>
+        <h2>Social Media Creator Pack — Volume 1</h2>
+        <div class="price">$4.99</div>
+        <p>Get 100 caption starters, a hashtag library, a 30-day content calendar, 50 video ideas, planning worksheets, and a quick-start guide.</p>
+        <a class="button" href="https://payhip.com/b/PNFVR" target="_blank" rel="noopener">Get Your Creator Pack</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section-title">
+        <h2>More Than Just Digital Downloads</h2>
+      </div>
+      <p>CreatorVault brings together useful tools and creative resources designed to make creating, planning, and growing easier. Whether you're just getting started or building your brand, we're here to help you move forward.</p>
+    </section>
+  </main>
+
+  <footer>
+    <strong>CREATORVAULT</strong><br>
+    CREATE. ORGANIZE. GROW.<br><br>
+    © 2026 CreatorVault. All rights reserved.
+  </footer>
+</body>
+</html>
