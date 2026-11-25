@@ -223,6 +223,17 @@ h1 span {
   color:var(--muted);
 }
 
+.mini-card {
+  display:block;
+  border:1px solid transparent;
+  transition:transform .2s,border-color .2s;
+}
+
+.mini-card:hover,.mini-card:focus-visible {
+  transform:translateY(-3px);
+  border-color:rgba(169,135,232,.5);
+}
+
 .mini-card strong {
   display:block;
   color:var(--white);
@@ -496,8 +507,8 @@ footer p {
       </div>
 
       <div class="preview-bottom">
-        <div class="mini-card"><strong>IDEAS</strong>Find your inspiration</div>
-        <div class="mini-card"><strong>GROWTH</strong>Make your next move</div>
+        <a class="mini-card" href="#features"><strong>IDEAS</strong>Find your inspiration</a>
+        <a class="mini-card" href="#shop"><strong>GROWTH</strong>Make your next move</a>
       </div>
     </div>
   </div>
